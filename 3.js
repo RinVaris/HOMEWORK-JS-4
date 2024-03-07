@@ -14,4 +14,22 @@
 не окажется, значит нужно будет вывести пустой массив.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+
+const array = [];
+let sum = 0;
+const indexThree = [];
+
+for (let i = 0; i < 5; i++) {
+  array.push(Math.floor(Math.random() * 10));
+  sum += array[i];
+  if (array[i] === 3) {
+    indexThree.push(i);
+  }
+  
+}
+
+console.log(array);
+console.log(sum);
+console.log(Math.min(...array));
+console.log(indexThree);
+
