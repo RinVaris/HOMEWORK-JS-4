@@ -14,7 +14,6 @@
 не окажется, значит нужно будет вывести пустой массив.
 */
 
-
 const array = [];
 let sum = 0;
 const indexThree = [];
@@ -25,11 +24,9 @@ for (let i = 0; i < 5; i++) {
   if (array[i] === 3) {
     indexThree.push(i);
   }
-  
 }
 
 console.log(array);
 console.log(sum);
 console.log(Math.min(...array));
 console.log(indexThree);
-

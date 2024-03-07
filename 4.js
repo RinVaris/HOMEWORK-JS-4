@@ -12,4 +12,11 @@ xxxx
 xxxxx
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+for (let i = 0; i < 20; i++) {
+  let line = '';
+  for (let j = 0; j < i; j++) {
+    line += 'x';
+  }
+  console.log(line);
+}
+
